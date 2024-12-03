@@ -1,0 +1,192 @@
+@import "../../../../scss/variables";
+.callTrasfer-minisection-wrapper{
+    color: white;
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: #f97c7b;
+    border-radius: 50%;
+}
+.callTransfer-sub-circle{
+    width: 0.7rem;
+    height: .7rem;
+    background-color: green;
+    border-radius: 50%;
+    margin: 0rem 0.2rem 0rem 1.4rem;
+}
+.call-wrapper-session{
+    display: flex;
+    padding: 1rem;
+    box-shadow: 0px -1px 0px 0px #F0F0EF inset;
+    height: 7rem;
+}
+.circle-name-section{
+    margin-left: 1.5rem;
+}
+.circle-sub-section-name{
+    font-size: 14px;
+    font-weight: 500;
+    color: $text-active-color;
+}
+.circle-sub-section-type{
+    font-size: 13px;
+    font-weight: 500;
+    color: $text-inactive-color;
+}
+.calltransfer-table-header{
+    color:$text-active-color ;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.32px;
+}
+.calltransfer-table-body{
+    color:$text-active-color ;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    cursor: pointer;
+}
+.active-status{
+    color: green;
+}
+.busy-status{
+    color: red;
+}
+.callTansfer-table-circle{
+    position: absolute;
+    text-align: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    gap: 0px;
+    border-radius: 50%;
+    opacity: 0px;
+    background-color: #51D297;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: .1rem;
+}
+.away-status{
+    color: #f5b64d;
+}
+.backto-transfer-table-wrapper{
+    height: 2rem;
+    box-shadow: 0px -1px 0px 0px #F0F0EF inset;
+    font-size: 13px;
+    font-weight: 400;
+    color: $text-inactive-color;
+    padding: .5rem .5rem .5rem 1rem;
+    cursor: pointer;
+}
+.phoneNumber-section-wrapper{
+    height: 4rem;
+    box-shadow: 0px -1px 0px 0px #F0F0EF inset;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    justify-items: center;
+    padding-left: 4.7rem;
+}
+.transfor-phone-radio{
+    width: 1rem;
+height:  1rem;
+gap: 0px;
+}
+.transfor-phoneradio-label{
+font-size: 12px;
+font-weight: 500 !important;
+color: $text-active-color !important;
+}
+.transfor-phone-uncheked{
+font-size: 12px;
+font-weight: 400 !important;
+color:$text-inactive-color !important;
+
+}
+.extension-wrapper{
+    margin-left: 5rem;
+}
+.status-section{
+    margin-left: 6.3rem;
+}
+.transfer-button-section{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   justify-items: center;
+   margin-top: 3rem;
+}
+.button-transfer{
+   // position: absolute;
+    cursor: pointer;
+    // pointer-events: all;
+    width: 26rem;
+    background-color:$active-color;
+    border: 1px solid $active-color;
+    border-radius: 4px;
+    color: #ffff;
+font-size: 13px;
+font-weight: 500;
+}
+.button-transfer:hover{
+     cursor: pointer;
+     width: 26rem;
+     background-color:$active-color;
+     border: 1px solid $active-color;
+     border-radius: 4px;
+     color: #ffff;
+ font-size: 13px;
+ font-weight: 500;
+ }
+.button-transfer-disabled{
+    pointer-events: none;
+    width: 26rem;
+    background-color: $btn-disable-color;
+    border: 1px solid $btn-disable-color;
+    border-radius: 4px;
+    color:$text-active-color;
+font-size: 13px;
+font-weight: 500;
+}
+.status-lable{
+font-size: 12px;
+font-weight: 500;
+color: $text-active-color;
+}
+.status-value{
+    
+}
+.status-value-ready{
+    font-size: 12px;
+    font-weight: 400;
+    color:green ;  
+}
+.status-value-busy{
+    font-size: 12px;
+    font-weight: 400;  
+    color: red;
+}
+.status-value-away{
+    font-size: 12px;
+    font-weight: 400;  
+    color: #f5b64d;
+}
+@media screen and (max-width: 700px) {
+    .phoneNumber-section-wrapper{
+        height: 4rem;
+        box-shadow: 0px -1px 0px 0px #F0F0EF inset;
+        display: inline;
+        align-items: center;
+        justify-content: flex-start;
+        justify-items: center;
+        padding-left: 9.7rem;
+    }
+    .call-wrapper-session{
+        display: inline;
+        padding: 1rem;
+        box-shadow: 0px -1px 0px 0px #F0F0EF inset;
+        height: 7rem;
+    }
+  }

@@ -1,0 +1,25 @@
+@import "./scss/_variables.scss";
+ @font-face {
+    font-family: 'SFProText';
+    src: url('../src/assets/fonts/SFProText-Medium.woff2') format('woff2'),
+         url('../src/assets/fonts/SFProText-Medium.woff') format('woff');
+         font-weight: 500;
+	      font-style: normal;
+	      font-display: swap;
+  }
+.App{
+  font-family: 'SF Pro Text', Arial, sans-serif;
+        
+}
+.form-control:focus {
+  border-color:#E4E6E7;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+  border-color:#E4E6E7;
+  -webkit-box-shadow: none;
+  background-color:#FD7B38 ;
+}

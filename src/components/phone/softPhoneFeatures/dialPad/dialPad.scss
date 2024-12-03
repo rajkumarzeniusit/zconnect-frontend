@@ -1,0 +1,108 @@
+@import"../../../../scss/variables";
+.dial-pad {
+    background-color:#ffff;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.08);
+ border-radius: 6px;
+    width: 18rem;
+    height: 28rem;
+
+}
+.dial-pad-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.dial-pad-caller-section{
+    display: inline-block;
+    margin-top: 3rem;
+}
+.clear-phonenumber{
+    float: inline-end;
+    font-size: 19px;
+    margin-right: .8rem;
+    margin-top: .3rem;
+    cursor: pointer;
+}
+.display-phone{
+    background-color:#ffff ;
+    text-align: bottom;
+    height: 3rem;
+    font-size: 24px;
+    padding-top: .5rem;
+    box-shadow: 0px -1px 0px 0px #F0F0EF inset;
+
+}
+.display-phone {
+ // position: absolute;
+  //margin: 25px 0px 0px 108px;
+  //font-size: 24px;
+  /* margin-bottom: 16px; */
+}
+.dial-pad-wrapper{
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    // justify-items: center;
+}
+.dial-pad-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 18fr);
+  width: 11%;
+  height: 230px;
+  grid-column-gap: 12px;
+//   margin-left: 104px;
+//   padding-top: 36px;
+}
+
+.number,
+.action {
+  height: 39px;
+  border-radius: 50%;
+  width: 40px;
+  font-size: 18px;
+  padding: 5px;
+  background-color: rgb(67, 86, 120);
+  color: #ffff;
+  box-shadow: 0 1px 2px rgb(67, 86, 120);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+.number:hover,
+.action:hover {
+  background-color: rgb(67, 86, 120) f;
+}
+.star-font-size {
+  font-size: 28px !important;
+}
+.dial-pad-call {
+  height: 40px;
+  width: 42px;
+  color: #ffff;
+  border-radius: 50%;
+  background: #05cbbb;
+  text-align: center;
+  padding: 8px;
+  cursor: pointer;
+}
+.dial-pad-clear {
+  height: 40px;
+  width: 42px;
+  color: #ffff;
+  border-radius: 50%;
+  background: #5aafff;
+  text-align: center;
+  padding: 8px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.call-clear-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  /* padding: 20px; */
+}

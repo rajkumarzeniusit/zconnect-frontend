@@ -1,0 +1,58 @@
+@import "../../../../scss/variables";
+.callDetails-main-wrapper{
+    width: 23rem;
+    height: 30rem;
+    // border: 1px solid $border-color;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    background-color: $white-bg;
+    margin: 2rem;
+    padding: 2rem;
+}
+.calldetails-name-section{
+    width: 3.6rem;
+    height: 3.6rem;
+    background-color:$active-color ;
+    padding: 0.8rem;
+    color: #ffff;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: 500;
+}
+.calldetails-fullname-section{
+    font-size: 18px;
+    font-weight: 700;
+    color: $text-active-color;
+    padding: 0.3rem .5rem .5rem .8rem;
+}
+.callsection-icon{
+    color: $bullet-color;
+    margin-top: 0.3rem;
+}
+.calldetails-bull{
+    margin-top: .65rem;
+    width: .45rem;
+    height: .45rem;
+    background-color: $bullet-color;
+    border-radius: 50%;
+ 
+}
+.calldetails-subsection{
+    display: grid !important;
+  grid-template-columns: auto auto ;
+  row-gap: 1rem;
+}
+.callDeatils-section{
+    margin-left: 1.2rem;
+}
+.callsection-text{
+    font-weight: 400;
+    font-size: 12px;
+    color: $text-inactive-color;
+}
+.callsection-value{
+    font-weight:500;
+    font-size: 12px;
+    color: $text-active-color;
+}

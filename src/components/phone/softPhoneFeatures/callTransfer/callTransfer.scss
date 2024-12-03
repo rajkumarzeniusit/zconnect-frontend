@@ -1,0 +1,71 @@
+@import "../../../../scss/variables";
+.callTransfer-main-wrapper{
+    background-color: $white-bg;
+    width:65rem;
+    max-width: calc(100% - 1.5rem);
+    height: 30rem;
+    border: 1px solid $border-color;
+    border-radius: 4px;
+    margin: 2rem;
+    .nav-link {
+        color: $text-inactive-color;
+        font-size: 13px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .nav-pills .nav-link.active {
+        font-weight: 600;
+        font-size: 13px;
+        color:#ffff;
+        background-color: $active-color!important;
+        
+    }
+}
+.calltransfer-vertical-tabs{
+    border-right: 1px solid $border-color;
+    padding: 1rem;
+    height: 30rem;
+    width: 14rem;
+}
+.callerid-main-section{
+    background-color: $white-bg;
+   width: 25rem;
+   max-width: calc(100% - 1.5rem);
+    height:13rem ;
+    max-height:calc(100vh - 10rem) ;
+  //  border: 1px solid $border-color;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    margin: 2rem 2rem 2rem 2rem;
+    padding: 1.2rem;
+}
+.caller-ids-dropdown{
+   // font-size: 15px !important;
+    font-weight: 600 !important;
+    font-size: 13px;
+    color:$text-active-color;
+}
+.callerids-label{
+    color: $input-labels-color;
+    font-weight: 400 !important;
+    font-size: 14px;
+}
+.callTransfer-tabcontent-section{
+     background-color: $main-body-bg;
+    width:65rem;
+    max-width: calc(100% - 1.5rem);
+     height: 30rem;
+     padding: 0.5rem;
+}
+.calltranfer-minisub-section{
+    background-color: #ffff;
+    height: 26rem;
+    border-radius: 6px;
+    margin-top: .5rem;
+    overflow-y: hidden;
+}
+.callTranfer-search-destinations::placeholder{
+    color: $input-placeholder-color;
+    font-size: 13px;
+    font-weight: 400;
+}

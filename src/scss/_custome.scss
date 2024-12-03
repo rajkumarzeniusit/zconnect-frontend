@@ -1,0 +1,37 @@
+@import "./variables";
+
+.main-body-wrapper-section{
+    background-color: $main-body-bg;
+    height: calc(100vh - 4.4rem);
+    margin-left: 3.45rem;
+    padding: 0.4rem;
+    overflow-x: hidden;
+}
+.sub-wrapper-section{
+    border-radius: 0.3rem;
+   background-color: $body-content-bg;
+    height: calc(100vh - 5.4rem);
+    overflow-x: hidden;
+}
+.incoming-answered-wrapper{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: hsl(120, 41%, 56%);
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    padding: .34rem
+}
+.incoming-reject-wrapper{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    padding: .34rem
+}

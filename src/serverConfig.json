@@ -1,0 +1,11 @@
+{
+  "AppSettings": {
+    "username": "1033",
+    "password": "Supervisortwo@1",
+    "sip": "sip:",
+    "ip": "10.16.7.91",
+    "dbURL": "http://10.16.7.113:8080",
+    "webSocketServerURL": "wss://10.16.7.91:7443/ws",
+    "WebApiBaseUrl": "http://localhost:8000"
+  }
+}

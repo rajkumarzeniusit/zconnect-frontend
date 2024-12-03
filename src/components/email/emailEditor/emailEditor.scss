@@ -1,0 +1,84 @@
+
+@import"../../../scss/variables";
+.ql-editor,p{
+    // padding-top:  10rem;
+    overflow-y: auto;
+}
+.ql-container{
+    height:19rem ;
+    max-height:calc(100vh - 13rem) ;
+}
+.ql-snow a {
+  // display: none;
+  color:black;
+  text-decoration: none;
+cursor: pointer;
+// display: none;
+}
+.ql-snow a:hover {
+    cursor: pointer;
+    // color: red;
+}
+.ql-snow a{
+  // text-decoration: none !important;
+  // color: $text-active-color;
+  // height: 3rem !important;
+}
+  .apply-border-top{
+    border-top: 1px solid $border-color; /* Adjust border properties as needed */
+  }
+  .quill-button {
+    background-color: white;
+    // box-shadow: 0px -1px 0px 0px #F0F0EF inset;
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+    border: 1px solid $border-color;
+    /* padding: 10px 20px; */
+    width:20rem;
+    max-width:max-content;
+    height: 2rem;
+    cursor: pointer;
+  }
+  // .url-button {
+  //   display: inline-block;
+  //   padding: 5px 10px;
+  //   border: 1px solid red;
+  //   border-radius: 5px;
+  //   background-color: #f0f0f0;
+  //   text-decoration: none;
+  //   color: black;
+  // }
+  .file-button {
+   margin-right: 1rem;
+    padding: 9px 10px;
+    border-radius: 5px;
+    background-color: white;
+  // box-shadow: 0px -1px 0px 0px #F0F0EF inset;
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+    border: 1px solid $border-color;
+    /* padding: 10px 20px; */
+    width:20rem;
+    max-width:max-content;
+    height: 5rem !important;
+    cursor: pointer;
+    display: none;
+  }
+  .file-icon-pdf{
+    color:$file-pdf-icon-color ;
+  }
+  .file-icon-excel{
+    color: $file-excel-icon-color;
+  }
+  .word-icon-color{
+    color: $file-word-iocn-color;
+  }
+  .file-icon{
+    margin-right: 0.4rem;
+  }
+  .close-file-icon{
+    margin-left: 1rem;
+    font-size: 15px;
+  }

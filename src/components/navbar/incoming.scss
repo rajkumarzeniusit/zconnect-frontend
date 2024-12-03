@@ -1,0 +1,230 @@
+.incoming-main-section {
+  animation: mymove 1s infinite;
+  // background-color: #f5b64d;
+  width: 50rem;
+  height: 60px;
+  max-width: calc(100% - 2rem);
+  padding: 10px;
+  display: flex;
+}
+@import "../../scss/variables";
+ 
+// .nav-item {
+ 
+//   margin-top: 10px;
+ 
+// }
+ 
+// .icons-wrapper-section-nav li {
+ 
+//   margin-left: 20px;
+ 
+//   display: flex;
+ 
+//   align-items: center;
+ 
+// }
+ 
+// .navbar-icon,
+ 
+// .icon-ready,
+ 
+// .icon-not-ready,
+ 
+// .icon-after-work {
+ 
+//   margin-top: 0rem !important;
+ 
+// }
+ 
+// .icon-ready {
+ 
+//   color: green;
+ 
+// }
+ 
+// .icon-not-ready {
+ 
+//   color: #f5b64d;
+ 
+// }
+ 
+// .icon-after-work {
+ 
+//   color: red;
+ 
+// }
+ 
+// .navbar-logo {
+ 
+//   margin-left: -10px;
+ 
+// }
+ 
+// .divider {
+ 
+//   border-left: 2px solid #ccc;
+ 
+//   //height: 25px; /* Increased height */
+ 
+//   margin-left: auto;
+ 
+//   margin-right: auto;
+ 
+//   padding-top:10px;
+ 
+// }
+ 
+.divider {
+  border-left: 1px solid $border-color;
+  height: 40px;
+  margin-top: 13px;
+}
+ 
+.agent-name {
+  font-size: 13px;
+  color: $text-active-color;
+  font-weight: 600;
+}
+ 
+.agent-name-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 13px;
+}
+ 
+.timer-button {
+  background: none;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: bold;
+}
+ 
+.navbar-icons {
+  color: #f5b64d;
+}
+ 
+@keyframes mymove {
+  from {
+    background-color: #f5b64d;
+  }
+  to {
+    background-color: #fbdf9e;
+  }
+}
+.answer-main-section {
+  background-color: #fbdf9e;
+  width: 50rem;
+  height: 60px;
+  max-width: calc(100% - 2rem);
+  padding: 10px;
+  display: flex;
+}
+.name-section-wrapper {
+  text-align: center;
+  padding: 8px;
+  background-color: #edac00;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 4px 4px #ffff;
+  color: #ffff;
+}
+.email-details-main-section {
+  height: 40px;
+  margin-left: 1.5rem;
+  margin-top: -0.3rem;
+}
+.email-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #4e2607;
+}
+.email-subject {
+  font-size: 13px;
+  font-weight: 600;
+  color: #4e2607;
+}
+.email-user-mail {
+  margin-left: 1rem;
+  font-size: 13px;
+  font-weight: 600;
+  color: #86683b;
+}
+.email-subject-mail {
+  margin-left: 3.75rem;
+  font-size: 13px;
+  font-weight: 600;
+  color: #937850;
+}
+.incoming-attend-section {
+  display: flex;
+  padding: 0.3rem 0rem 0rem 19rem;
+  // margin-left: 18rem;
+}
+.reject-emails {
+  position: fixed;
+  margin-left: 3.5rem;
+}
+.incoming-answered-wrapper {
+  height: 2rem;
+
+  width: 2rem;
+
+  border-radius: 50%;
+
+  background-color: hsl(120, 41%, 56%);
+
+  text-align: center;
+
+  color: white;
+
+  font-size: 14px;
+
+  cursor: pointer;
+
+  padding: 0.34rem;
+}
+
+.incoming-reject-wrapper {
+  height: 2rem;
+
+  width: 2rem;
+
+  border-radius: 50%;
+
+  background-color: red;
+
+  text-align: center;
+
+  color: white;
+
+  font-size: 14px;
+
+  cursor: pointer;
+
+  padding: 0.34rem;
+}
+.message-user-message {
+  margin-left: 1rem;
+
+  font-size: 13px;
+
+  font-weight: 600;
+
+  color: #86683b;
+}
+
+.message-subject-message {
+  margin-left: 2.75rem;
+
+  font-size: 13px;
+
+  font-weight: 600;
+
+  color: #937850;
+}
