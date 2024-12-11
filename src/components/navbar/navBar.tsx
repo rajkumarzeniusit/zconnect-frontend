@@ -1636,6 +1636,23 @@ const NavBar = () => {
       if (timer) clearTimeout(timer);
     };
   }, [isIncomingEmail]);
+  useEffect(() => {
+    console.log("started timer")
+    let timer :any;
+    // Start a timer when isNewIncomingMsg is true
+    if (isNewIncomingMsg) {
+      console.log("isNewIncomingMsg :",isNewIncomingMsg)
+      timer = setTimeout(() => {
+        console.log("timer completed 30 sec",timer)
+        rejectMessage(); // Automatically call rejectMessage after 30 seconds
+      }, 30000); // 30,000 milliseconds = 30 seconds
+    }
+
+    // Cleanup the timer if the component unmounts or isNewIncomingMsg changes
+    return () => {
+      if (timer) clearTimeout(timer);
+    };
+  }, [isNewIncomingMsg]);
 
   return (
     <div>

@@ -27,6 +27,7 @@ class SocketService {
 
   public connect() {
     this.socket.connect();
+    this.socket.emit('agent_id', 'ashokreddy@gmail.com');
     console.log("Socket connection established", this.socket.connect());
   }
 
